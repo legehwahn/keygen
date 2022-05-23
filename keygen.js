@@ -33,5 +33,6 @@ const keyPair = await new Promise((resolve, reject) => {
 // Creating key files
 await fs.promises.writeFile('public.pem', keyPair.publicKey);
 await fs.promises.writeFile('private.pem', keyPair.privateKey);
+await fs.promises.writeFile('passphrase', certPassphrase);
 
 console.log('Keypair generated');
