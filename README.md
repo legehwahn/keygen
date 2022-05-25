@@ -2,21 +2,18 @@
 
 ### Prerequisites
 
-- nodejs
-- npm
+- [nodejs v18](https://nodejs.org/en/download/current/)
 
-### Local setup
+### Run
 
-- `npm i`
-- configure the desired private key passphrase in the `keygen.js` line 4
+1. `npm install` (only required to perform once to install dependencies)
+1. Configure the desired private key passphrase in the `keygen.js` line 4
 
 ```js
 const certPassphrase = "ALPHA BRAVO CHARLIE DELTA ECHO FOXTROT";
 ```
 
-### Run
-
-- `npm start`
+3. `npm start`
 
 The following files should be written as output:
 
